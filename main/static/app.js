@@ -23,8 +23,7 @@ function countToThree(){
             firstImgs[counter].classList.add('show-img')
 
           })
-          // firstImgs[counter].classList.add('show-img')
-          // s
+
 
         counter++
         if(counter===firstImgs.length){
@@ -32,4 +31,4 @@ function countToThree(){
         }
 }
 
-setInterval(countToThree,3000)
+setInterval(countToThree,10000)
